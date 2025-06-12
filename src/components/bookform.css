@@ -1,0 +1,74 @@
+/* .book-form-container {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-form-paper {
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #fafafa;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.book-form-title {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.book-form-button {
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: none;
+} */
+
+/* bookform.css */
+
+.bookform-container {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.bookform-paper {
+    background: #fafafa;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.bookform-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.bookform-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookform-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.bookform-field {
+    flex: 1 1 100%;
+}
+
+.bookform-half-field {
+    flex: 1 1 calc(50% - 0.75rem);
+    min-width: 240px;
+}
+
+.bookform-button {
+    flex: 1 1 100%;
+    margin-top: 1.5rem;
+}
